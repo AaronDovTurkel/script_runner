@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A chrome extension to store and run scripts.">
     <title>Script Runner</title>
+
+    <!-- load stylesheets: internal -->
+    <link rel="stylesheet" type="text/css" href="./popup.css"></link>
 </head>
+
 <body>
-    
+    <header>
+        <h1>Script Runner</h1>
+    </header>
+    <section id="main">
+        <button id="run_script_button">Run Script</button>
+        <button id="add_script_button">Add Script +</button>
+    </section>
+    <section id="run_script_section">
+        <h2></h2>
+        <ul>
+            <li>There are no scripts to run.</li>
+        </ul>
+    </section>
+    <section id="add_script_section">
+        <label for="new_script_name">Name</label>
+        <input type="text" name="new_script_name" id="new_script_name">
+        <textarea name="script_input" id="script_input" cols="30" rows="10"></textarea>
+        <button>Save</button>
+    </section>
 </body>
 </html>

@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Script Runner",
     "description": "A place to store and run scripts",
-    "version": "1.0",
+    "version": "0.1",
     "content_scripts": [
         {
             "matches": [
