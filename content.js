@@ -1,1 +1,0 @@
-(function(){const arrows = document.getElementsByClassName('arrow');for (index = 0; index < arrows.length; ++index) {arrows[index].parentElement.parentElement.click();}})()
